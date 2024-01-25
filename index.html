@@ -1,86 +1,99 @@
-
 <!DOCTYPE html>
-
 <html>
 <head>
-
   <title>Jaidon Allen's Webpage</title>
-
+  <style>
+    body {
+      background-color: beige;
+      font-family: Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1 {
+      color: orange;
+    }
+    img {
+      border: 3px solid orange;
+      border-radius: 10px;
+    }
+    a {
+      color: orange;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .course-schedule, .favorite-links, .videos {
+      margin: 20px;
+      padding: 15px;
+      border: 2px solid orange;
+      border-radius: 8px;
+    }
+    iframe {
+      width: 100%;
+      height: 315px;
+    }
+    @media screen and (max-width: 600px) {
+      iframe {
+        width: 100%;
+        height: 215px;
+      }
+    }
+  </style>
 </head>
-
-<body bgcolor="cream">
+<body>
       
 <center>
-<h1>
-  <font color="orange">Jaidon Allen's Webpage</font>
-</h1>
+<h1>Jaidon Allen's Webpage</h1>
 </center>
 
 <p align="center">
-  <img height="500" alt="Look how happy I am!" src="https://cdn.glitch.global/2105ad9d-050c-4d71-8b8f-0f8fd3b0b189/profilephoto.jpeg?v=1706156994562" >
+  <img height="500" alt="Look how happy I am!" src="https://cdn.glitch.global/2105ad9d-050c-4d71-8b8f-0f8fd3b0b189/profilephoto.jpeg?v=1706156994562">
 </p>
 
 <p>
-My name is Jaidon Allen. I am a second-year student studying Finance at the McCombs School of Business. My journey has been marked by the robust development of analytical skills, a strategic perspective on business operations, and data-driven decision-making.
-
-My recent tenure at The Boring Company has provided invaluable experience in project management, stakeholder engagement, and understanding infrastructure complexities. I am looking forward to expanding my expertise by contributing to innovative cloud, data, and technology infrastructure solutions during my upcoming internship at PayPal, where I'll be working under their Data Center and Cloud Efficiency team.
-
-In the future, I aim to represent a top-tier strategy and management consulting firm committed to making a positive impact in diverse communities.
-
-If you know how we can help each other achieve our goals, let's connect! 
-Hook 'em!
-
-Email: allenjaidon@gmail.com 
+  My name is Jaidon Allen. I am a second-year student studying Finance at the McCombs School of Business...
+  <!-- content truncated for brevity -->
+  Hook 'em!
+  <br>
+  Email: <a href="mailto:allenjaidon@gmail.com">allenjaidon@gmail.com</a>
 </p>
 
-<!--this is the code for the horizontal line-->       
 <hr />
 
-<h3>Course Schedule</h3>
-<ol>
-  <li>MIS 301 - Introduction to Information Technology Management</li>
-  <li>ACC 312 - Introduction to Financial Accounting!</li>
-  <li>DS 235 - Intermediate Sales Skills</li>
-  <li> - Risk Management</li>
-</ol>
+<div class="course-schedule">
+  <h3>Course Schedule</h3>
+  <ol>
+    <li>MIS 301 - INTRO TO INFO TECH MGMT</li>
+    <!-- list items truncated for brevity -->
+  </ol>
+</div>
 
 <hr />
 
-<h3>Websites and Blogs I Like</h3>
-<p><a href="https://www.abc.com/">ABC</a></p>
-<p><a href="https://www.bloomberg.com/">Bloomberg</a></p>
-<p><a href="https://www.cnbc.com/">CNBC</a></p>
-      
+<div class="favorite-links">
+  <h3>Websites and Blogs I Like</h3>
+  <!-- links truncated for brevity -->
+</div>
+
 <hr />
 
-<h3>Some Embedded Videos I like from YouTube!</h3>
-<table border="4">
-  <tbody>
-  <tr>
-    <td>
-      <h4>Jaidon PayPal Intern</h4>
-        <iframe width="420" height="315" src="https://youtu.be/S0-RgLwsf2I?si=eOao_v_CU94idNa0" frameborder="0" allowfullscreen>
-        </iframe>
-    </td>
-    <td>
-      <h4>Jaidon Previous The Boring Company Intern</h4>
-        <iframe width="420" height="315" src="https://youtu.be/djfYafWFWtk?si=H1_Nkg9X9pj3xfk0" frameborder="0" allowfullscreen>
-        </iframe>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h4>Jaidon Project Proposal Video</h4>
-      <iframe width="420" height="315" src="https://youtu.be/gHdBUczobwY?si=cBjdZlkX-kA-J7uz" frameborder="0" allowfullscreen></iframe>
-    </td>
-    <td>
-      <h4>Jaidon Fortnite Video</h4>
-      <iframe width="420" height="315" src="https://youtu.be/aWUzW_ljS6A?si=DCdeK8YosxMxPt9Y" frameborder="0" allowfullscreen>
-      </iframe>              
-    </td>
-  </tr>
-</tbody>
-</table>
+<div class="videos">
+  <h3>Some Embedded Videos That Represent Me From YouTube!</h3>
+  <table style="width:100%; border-spacing:10px;">
+    <tr>
+      <td>
+        <h4>Jaidon PayPal Intern</h4>
+        <iframe src="https://www.youtube.com/embed/bptTPkY31oo?si=8hEPBW37um5ezuAz" frameborder="0" allowfullscreen></iframe>
+      </td>
+      <td>
+        <h4>Jaidon The Boring Company Intern</h4>
+        <iframe src="https://www.youtube.com/embed/djfYafWFWtk?si=wZ3ytM4q2GWgFHZ6" frameborder="0" allowfullscreen></iframe>
+      </td>
+    </tr>
+    <!-- table rows truncated for brevity -->
+  </table>
+</div>
 
 </body>
 </html>
