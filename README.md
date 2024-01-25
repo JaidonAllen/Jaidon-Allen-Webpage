@@ -1,4 +1,4 @@
-# VIEW WEBSITE ([https://jga2289-mis301.glitch.me/](url))
+# VIEW WEBSITE [https://jga2289-mis301.glitch.me/](url)
 
 # Hello website!
 
